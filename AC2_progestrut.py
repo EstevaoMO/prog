@@ -18,7 +18,7 @@ def verifica_bissexto(ano):
     return ano%100!=0 and ano%4==0 or ano%400==0
 
 #Exercício 2
-def calcula_salario(valor_hora, num_horas, irpf):
+def calcula_salario(valor_hora, num_horas, irpf=0.275):
     return valor_hora*num_horas - valor_hora*num_horas*irpf
 
 #Código principal
