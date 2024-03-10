@@ -5,7 +5,6 @@ Este documento contém o Exercício 1 e o Exercício 2 da AC2 de Programação E
 Objetivo do Exercício 1: desenvolver uma função que calcule uma função de segundo grau.
 
 Objetivo do Exercício 2: desenvolver uma função que calcule o salário de um indivíduo.
-de renda dado.
 """
 #Exercício 1
 def eq_seg_grau(a, b, c):
