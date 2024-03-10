@@ -27,7 +27,7 @@ def main():
     print(eq_seg_grau(2, 16, 3))
     print(verifica_bissexto(1900))
     print(verifica_bissexto(1984))
-    print(calcula_salario(9, 145, 0.215))
-    print(calcula_salario(8.825, 160, 0.215))
+    print(calcula_salario(9, 145))
+    print(calcula_salario(8.825, 160))
 
 main()
