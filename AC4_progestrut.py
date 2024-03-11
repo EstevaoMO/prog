@@ -33,12 +33,10 @@ def duas_maiores_notas(ap1, ap2, asub):
     A AS só substitui uma das duas provas (a menor delas).
     Caso a AS seja menor que a AP1 e a AP2, retorna AP1 e AP2.
     """
-    if ap1 < ap2:
-        if asub > ap1:
-            return asub, ap2
-    if ap2 < ap1:
-        if asub > ap2:
-            return ap1, asub
+    if ap1 < ap2 and asub > ap1:
+        return asub, ap2
+    if ap2 < ap1 and asub > ap2:
+        return ap1, asub
     else:
         return ap1, ap2
 
